@@ -1,0 +1,35 @@
+@import '@scss/__sassy';
+
+.main {
+  @include grid(1fr, min-content 1fr min-content, 1em);
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  overflow-y: auto;
+
+  :global {
+    header {
+      height: 90px;
+      position: sticky;
+      top: 0;
+      padding: 2em;
+
+      background-color: white;
+    }
+
+    .layout-content {
+      padding: 1em;
+      width: 100%;
+      height: max-content;
+    }
+
+    footer {
+      height: max-content;
+      padding: 2em;
+
+      background-color: black;
+    }
+  }
+}

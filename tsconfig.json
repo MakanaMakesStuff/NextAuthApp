@@ -17,9 +17,9 @@
     "baseUrl": "./",
     "paths": {
       "@core/*": ["./*"],
-      "@styles/*": ["./styles/scss/*"]
+      "@scss/*": ["./styles/scss/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.scss", "*.scss"],
   "exclude": ["node_modules"]
 }

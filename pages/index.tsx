@@ -17,3 +17,5 @@ export default function HomePage() {
 HomePage.getLayout = (page: JSX.Element) => {
   return DefaultLayout(page as any)
 }
+
+
